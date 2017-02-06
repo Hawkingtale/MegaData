@@ -6,4 +6,12 @@
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-#include <stdio.h>
+#include <Controller.h>
+
+int main()
+{
+    controller * app = new controller();
+    app->start();
+    
+    return 0;
+}
