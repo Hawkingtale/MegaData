@@ -9,6 +9,10 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include <stdio.h>
+class DataStructureController
+{
+private: void testIntArray();
+public: DataStructureController(); void start();
+};
 
 #endif /* Controller_hpp */

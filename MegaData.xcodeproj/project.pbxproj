@@ -11,6 +11,7 @@
 		9F23827D1E49051900AB86FE /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F23827C1E49051900AB86FE /* Runner.cpp */; };
 		9F2382811E490F1D00AB86FE /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F23827F1E490F1D00AB86FE /* Model.cpp */; };
 		9F9D453B1E4BA27900F5E088 /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D45391E4BA27900F5E088 /* IntNode.cpp */; };
+		9F9D453E1E4BA97E00F5E088 /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D453C1E4BA97E00F5E088 /* IntNodeArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		9F2382801E490F1D00AB86FE /* Model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Model.hpp; sourceTree = "<group>"; };
 		9F9D45391E4BA27900F5E088 /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNode.cpp; sourceTree = "<group>"; };
 		9F9D453A1E4BA27900F5E088 /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNode.hpp; sourceTree = "<group>"; };
+		9F9D453C1E4BA97E00F5E088 /* IntNodeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNodeArray.cpp; sourceTree = "<group>"; };
+		9F9D453D1E4BA97E00F5E088 /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNodeArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 			children = (
 				9F2382791E49050D00AB86FE /* Controller.cpp */,
 				9F23827A1E49050D00AB86FE /* Controller.hpp */,
+				9F9D453C1E4BA97E00F5E088 /* IntNodeArray.cpp */,
+				9F9D453D1E4BA97E00F5E088 /* IntNodeArray.hpp */,
 				9F23827C1E49051900AB86FE /* Runner.cpp */,
 				9F23827E1E490F0C00AB86FE /* Model */,
 			);
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9D453E1E4BA97E00F5E088 /* IntNodeArray.cpp in Sources */,
 				9F2382811E490F1D00AB86FE /* Model.cpp in Sources */,
 				9F9D453B1E4BA27900F5E088 /* IntNode.cpp in Sources */,
 				9F23827B1E49050D00AB86FE /* Controller.cpp in Sources */,
