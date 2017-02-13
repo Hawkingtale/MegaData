@@ -6,13 +6,13 @@
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-#include "Controller.hpp"
+#include "DataController.hpp"
 #include <iostream>
-#include "Runner.cpp"	
+#include "DataRunner.cpp"
 
 using namespace std;
 
-DataStructureController :: DataStructureController()
+DataController :: DataController()
 {
     
 }
