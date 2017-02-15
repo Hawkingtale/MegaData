@@ -9,14 +9,23 @@
 #include "DataController.hpp"
 #include <iostream>
 #include "DataRunner.cpp"
+#include "../Model/In tNodeArray.hpp"
 
 using namespace std;
 
 DataController :: DataController()
 {
-    
+    wordNode = Node<String>("Derpy face");
+    numberNode = Node<int>();
 }
 
+void DataStructureController:: testNodes()
+{
+    cout << "The contents of Node<string>" <<endl;
+    cout << wordNode.getNodeData() << endl;
+    cout << "Here is the Node<int>" << endl;
+    cout << numberNode.getNodeData() << endl;
+}
 void DataStructureController :: start()
 {
     cout << "starting the project" << endl;
