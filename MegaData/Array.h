@@ -87,4 +87,74 @@ int Array<Type> :: getSize()
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+template<class Type>
+Node<Type> * List<Type> :: getEnd() const
+{
+    
+    
+}
+template <class Type>
+void List<Type> :: addFront(Type value)
+{
+    if(size == 0)
+    {
+        Node<Type> * first = new Node<Type>(value);
+        this->front = first;
+        this->end = first;
+    }
+    else
+    {
+        Node<Type> * newFirst = new Node<Type>();
+        newFirst->setNodeData(value);
+        newFirst->setNodePointer(front);
+        //or
+        //Node<Type> * newFirst = new Node<Type>(value, front);
+        this->front = newFirst;
+    }
+    
+    size++;
+}
+
+template<class Type>
+void List<Type> :: addEnd(Type data)
+{
+    
+}
+template <class Type>
+void List<Type> :: addEnd(Type data)
+{
+    Node<Type>*added = new Node<Type>(data);
+    if(size == 0)
+    {
+        this->front = added;
+        this->end = added;
+    }
+    else
+    {
+        end->setNodePointer(added);
+        this->end = added;
+    }
+    size++;
+}
+
+
 #endif /* Array_h */

@@ -28,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F0AD8FE1E5F741B00EA4EAA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		9F23826F1E49045900AB86FE /* MegaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaData; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2382791E49050D00AB86FE /* DataController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataController.cpp; sourceTree = "<group>"; };
 		9F23827A1E49050D00AB86FE /* DataController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataController.hpp; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 				9F8146AD1E54E66700C38DF4 /* Array.h */,
 				9F30CFD61E523E290069E556 /* Node.hpp */,
 				9F8146A91E54E46F00C38DF4 /* Node.cpp */,
+				9F0AD8FE1E5F741B00EA4EAA /* List.hpp */,
 			);
 			name = Model;
 			sourceTree = "<group>";
