@@ -9,21 +9,27 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include "../Model/Node.hpp"
+#include "Node.hpp"
+#include "Array.hpp"
+#include "../Model/List.hpp"
 #include <string>
 
 using namespace std;
 
-class DataStructureController
+
+class DataController
 {
 private:
     void testIntArray();
     Node<int> numberNode;
     Node<string> wordNode;
+    void testNodes();
+    void testAdvancedFeatures();
+    void testLists();
     
 public:
-    DataStructureController();
+    DataController();
     void start();
 };
 
-#endif /* Controller_hpp */
+#endif /* DataStructureController_hpp */

@@ -9,7 +9,7 @@
 #ifndef Node_hpp
 #define Node_hpp
 
-template <class type>
+template <class Type>
 class Node
 {
 private:
@@ -18,10 +18,10 @@ private:
 public:
     Node();
     Node(Type nodeData);
-    node(Type data, Node<Type> * next);
+    Node(Type data, Node<Type> * next);
     
     void setNodeData(Type data);
-    void setNodePointer(Node<Type> pointer);
+    void setNodePointer(Node<Type> * pointer);
     Type getNodeData();
     Node<Type> * getNodePointer();
 };
@@ -38,46 +38,42 @@ Node<Type> :: Node()
 }
 
 template <class Type>
-node<Type> :: Node(Type data)
+Node<Type> :: Node(Type data)
 {
     this->nodeData = data;
     this->nodePointer = nullptr;
 }
 
 template <class Type>
-Node<Type> :: Node(Type nodeData, Node<Type> * nodePointer)
+Node<Type> :: Node(Type data, Node<Type> * next)
 {
     this->nodeData = data;
+    this->nodePointer = next;
 }
 
 template <class Type>
-void Node<Type> :: setNodeData(Type data)
+void Node<Type> ::setNodeData(Type newValue)
 {
-    this->nodeData = data;
+    nodeData = newValue;
 }
 
-templete <class Type>
+template <class Type>
+void Node<Type> :: setNodePointer(Node<Type> * pointer)
+{
+    this->nodePointer = pointer;
+}
+
+template <class Type>
 Type Node<Type> :: getNodeData()
 {
-    return this->nodeData;
+    return nodeData;
 }
 
-template <class> Type>
+template <class Type>
 Node<Type> * Node<Type> :: getNodePointer()
 {
     return this->nodePointer;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-#endif /* Node_hpp */
+#endif /* Node_h */

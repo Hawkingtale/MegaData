@@ -6,10 +6,10 @@
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-#ifndef IntNodeArray_hpp
+##ifndef IntNodeArray_hpp
 #define IntNodeArray_hpp
 
-#include "IntNodePointer"
+#include "IntNode.hpp"
 
 class IntNodeArray
 {
@@ -22,7 +22,6 @@ public:
     void setAtIndex(int index, int value);
     int getFromIndex(int index);
     int getSize();
-    
 };
 
 #endif /* IntNodeArray_hpp */
