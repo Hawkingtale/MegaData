@@ -10,7 +10,7 @@
 
 int main()
 {
-    DataController * app = new Datacontroller();
+    DataController * app = new DataController();
     app->start();
     
     return 0;

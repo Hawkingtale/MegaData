@@ -34,7 +34,7 @@
 		9F0EE6381E674E21008CECF9 /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IntNodeArray.hpp; path = Model/IntNodeArray.hpp; sourceTree = "<group>"; };
 		9F0EE6391E674E27008CECF9 /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = List.hpp; path = Model/List.hpp; sourceTree = "<group>"; };
 		9F0EE63A1E674E36008CECF9 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Node.hpp; path = Model/Node.hpp; sourceTree = "<group>"; };
-		9F0EE63B1E675D72008CECF9 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyLinkedList.hpp; sourceTree = "<group>"; };
+		9F0EE63C1E6767F0008CECF9 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DoublyLinkedList.hpp; path = Model/DoublyLinkedList.hpp; sourceTree = "<group>"; };
 		9F23826F1E49045900AB86FE /* MegaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaData; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2382791E49050D00AB86FE /* DataController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataController.cpp; sourceTree = "<group>"; };
 		9F23827A1E49050D00AB86FE /* DataController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataController.hpp; sourceTree = "<group>"; };
@@ -82,6 +82,7 @@
 		9F23827E1E490F0C00AB86FE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F0EE63C1E6767F0008CECF9 /* DoublyLinkedList.hpp */,
 				9F0EE63A1E674E36008CECF9 /* Node.hpp */,
 				9F0EE6391E674E27008CECF9 /* List.hpp */,
 				9F0EE6381E674E21008CECF9 /* IntNodeArray.hpp */,
@@ -90,7 +91,6 @@
 				9F0EE6331E674E10008CECF9 /* IntNode.cpp */,
 				9F0EE6321E674E07008CECF9 /* BiDirectionalNode.hpp */,
 				9F0EE6311E674DE6008CECF9 /* Array.hpp */,
-				9F0EE63B1E675D72008CECF9 /* DoublyLinkedList.hpp */,
 			);
 			name = Model;
 			sourceTree = "<group>";

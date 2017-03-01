@@ -8,7 +8,7 @@
 
 #include "DataController.hpp"
 #include <iostream>
-#include "../Model/IntNodeArray.hpp"
+#include "Model/IntNodeArray.hpp"
 
 using namespace std;
 

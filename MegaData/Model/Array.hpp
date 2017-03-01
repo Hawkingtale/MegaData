@@ -1,5 +1,5 @@
 //
-//  Array.h
+//  Array.hpp
 //  MegaData
 //
 //  Created by Hachtel, Matthew on 2/15/17.
@@ -11,10 +11,11 @@
 
 #include"Node.hpp"
 #include <assert.h>
+#include <iostream>
 
 using namespace std;
 
-template  <class Type>
+template <class Type>
 class Array
 {
 private:
@@ -160,6 +161,6 @@ Node<Type> * Array<Type> :: getFront() const
 {
     return front;
 }
+
 #endif /* Array_hpp */
 
-}

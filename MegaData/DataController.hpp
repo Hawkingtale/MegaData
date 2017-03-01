@@ -9,9 +9,10 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include "Node.hpp"
-#include "Array.hpp"
-#include "../Model/List.hpp"
+#include "Model/Node.hpp"
+#include "Model/Array.hpp"
+#include "Model/IntNodeArray.hpp"
+#include "Model/List.hpp"
 #include <string>
 
 using namespace std;

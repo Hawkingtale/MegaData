@@ -6,7 +6,7 @@
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-##ifndef IntNodeArray_hpp
+#ifndef IntNodeArray_hpp
 #define IntNodeArray_hpp
 
 #include "IntNode.hpp"
