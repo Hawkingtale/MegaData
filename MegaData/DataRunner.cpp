@@ -6,11 +6,11 @@
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-#include <DataController.h>
+#include "DataController.hpp"
 
 int main()
 {
-    Datacontroller * app = new Datacontroller();
+    DataController * app = new Datacontroller();
     app->start();
     
     return 0;
