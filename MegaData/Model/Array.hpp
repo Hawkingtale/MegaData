@@ -60,7 +60,7 @@ Array<Type> :: Array(int size)
     for (int index = 1; index < size; index++)
     {
         Node<Type> * current = new Node<Type>();
-        current->setNodePointer(front);
+        current->setNextPointer(front);
         front = current;
     }
 }
@@ -140,7 +140,7 @@ Array<Type> :: Array(const Array<Type> & toBeCopied)
     for(int index = 1; index < size; index++)
     {
         Node<Type> * temp = new Node<Type>();
-        temp->setNodePointer(front);
+        temp->setNextPointer(front);
         front = temp;
     }
     //Copy values into new Array.
