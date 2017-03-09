@@ -26,6 +26,12 @@ public:
 };
 
 template <class Type>
+Queue<Type> :: Queue() : DoublyLinkedList<Type>()
+{
+    
+}
+
+template <class Type>
 void Queue<Type> :: add(Type value)
 {
     enqueue(value);
@@ -52,11 +58,7 @@ Queue<Type> :: ~Queue()
     }
 }
 
-template <class Type>
-void Queue<Type> :: add(Type value)
-{
-    euqueue(value);
-}
+
 
 
 

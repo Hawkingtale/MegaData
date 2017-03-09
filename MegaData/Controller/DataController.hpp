@@ -16,6 +16,8 @@
 #include "../Model/Stack.hpp"
 #include "../Model/CircularList.hpp"
 #include "../Model/Queue.hpp"
+#include "../Model/Timer.hpp"
+#include "../Model/DoubleList.hpp"
 #include <string>
 
 using namespace std;
@@ -24,13 +26,13 @@ using namespace std;
 class DataController
 {
 private:
-    void testIntArray();
     Node<int> numberNode;
     Node<string> wordNode;
+    void testIntArray();
     void testNodes();
     void testAdvancedFeatures();
     void testLists();
-    
+    void testListTiming();
 public:
     DataController();
     void start();
