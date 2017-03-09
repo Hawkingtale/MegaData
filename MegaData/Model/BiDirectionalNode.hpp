@@ -9,7 +9,7 @@
 #ifndef BiDirectionalNode_h
 #define BiDirectionalNode_h
 
-tmplate <class Type>
+template <class Type>
 class BiDirectionalNode : public Node<Type>
 {
 private:
@@ -22,9 +22,9 @@ public:
     BiDirectionalNode(Type data, BiDirectionalNode<Type>* previous,
                       BiDirectionalNode<Type>* next);
     
-}
+};
 template<class Type>
-BiDirectionalNode<Type> :: BiDirectionalNode() : node<Type>()
+BiDirectionalNode<Type> :: BiDirectionalNode() : Node()
 {
     
 }

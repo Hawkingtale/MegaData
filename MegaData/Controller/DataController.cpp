@@ -8,7 +8,9 @@
 
 #include "DataController.hpp"
 #include <iostream>
-#include "Model/IntNodeArray.hpp"
+#include "../Model/IntNodeArray.hpp"
+
+
 
 using namespace std;
 
@@ -90,4 +92,45 @@ void DataController :: testLists()
     }
     
     cout << "Size should read 3 and is " << sample.getSize() << endl;
+}
+void testListTiming()
+{
+    DoubleList<int> timingList;
+    Timer totalTimer;
+    totalTimer.startTimer();
+    for(int index =0; index <10000; index++)
+    {
+        timingList.add(rand());
+    }
+    
+    long slowTime[10000];
+    long fastTime[10000];
+    double averageSlow =0.00, averageFast = 0.00;
+    Timer doubleTimer;
+    
+    for(int index = 0; index< 1000; index++)
+    {
+        int randomIndex = rand() % 10000;
+        doubleTimer.startTimer();
+        timingList.getFrom Index(randomIndex);
+        doubleTimer.stopTimer();
+        slowTimer[index] = doubleTimer.getExecutionTimeInMicroseconds();
+        double.resetTimer();
+        
+        doubleTimer.startTimer();
+        timingList.getFromIndexFast(randomIndex);
+        doubleTimer.stopTimer();
+        fastTimer[index] = doubleTimer.getExecutionTimeInMicroseconds();
+        doubleTimer.restartTimer();
+        
+        vaderageSlow += slowTime[index];
+        averageFast += fastTime[index]
+    }
+    
+    averageSlow = averageSlow/1000.00;
+    averageFast = averageFast/1000.00;
+    otalTime.stopTimer();
+    
+    cout << "The average speed for the getFromIndex methods was " << averageSlow<< " in microseconds " << endl;
+    cout << "the average speed from the get fromIndexFast method was " << averageFast " in microseconds " << endl;
 }

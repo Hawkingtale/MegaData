@@ -19,11 +19,11 @@ public:
     Queue();
     ~Queue();
     void add(Type data);
-    Type remove(int index)
+    Type remove(int index);
     void enqueue(Type data);
     Type dequeue();
     Type peek();
-}
+};
 
 template <class Type>
 void Queue<Type> :: add(Type value)
@@ -44,7 +44,7 @@ template <class Type>
 Queue<Type> :: ~Queue()
 {
     BiDirectionalNode<Type> * remove = this->getFront();
-    while(This->getFront() !=nullptr)
+    while(this->getFront() !=nullptr)
     {
         this->setFront(this->getFront()->getNextPointer());
         delete remove;
@@ -63,7 +63,7 @@ void Queue<Type> :: add(Type value)
 template <class Type>
 void Queue<Type> :: enqueue(Type insertedValue)
 {
-    BiDirectionalNode<Type> * added = BiDirectionalNode<Type>(intsertedValue);
+    BiDirectionalNode<Type> * added = BiDirectionalNode<Type>(insertedValue);
     
     if(this->getSize() == 0 || this->getFront() == nullptr || this->getEnd() == nullptr)
     {
@@ -108,7 +108,7 @@ Type Queue<Type> :: dequeue()
     assert(this->getSize() > 0);
     
     Type removedValue = this->getFront()->getNodeData();
-    BiDirectioalNode<Type> * removeMe = this->getfront;
+    BiDirectionalNode<Type> * removeMe = this->getfront;
     
     if(this->getSize() == 1)
     {

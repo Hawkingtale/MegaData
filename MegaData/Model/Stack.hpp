@@ -6,8 +6,8 @@
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-#ifndef stack_h
-#define stack_h
+#ifndef Stack_h
+#define Stack_h
 
 #include "DoublyLinkedList.hpp"
 
@@ -16,18 +16,18 @@ class Stack : public DoublyLinkedList<Type>
 {
 private:
 public:
-    stack();
-    ~stack();
+    Stack();
+    ~Stack();
     void add(Type value);
     Type remove(int index);
     Type pop();
     Type peek();
-    void push(Type data)
+    void push(Type data);
 };
 
 
 template <class Type>
-stack<Type> :: stack() : DoublyLinkedList<Type>()
+Stack<Type> :: Stack() : DoublyLinkedList<Type>()
 {
     
 }

@@ -12,7 +12,7 @@
 #include "DoublyLinkedList.hpp"
 
 template <class Type>
-class CircularList : public DoubleLinkedList<Type>
+class CircularList : public DoublyLinkedList<Type>
 {
 private:
     //No need to redefine the private data members!!!
@@ -23,7 +23,7 @@ public:
     void add(Type data);
     Type remove(int index);
     //Other methods as needed :)
-}
+};
 
 template <class Type>
 CircularList<Type> :: CircularList() : DoublyLinkedList<Type>()
@@ -33,7 +33,7 @@ CircularList<Type> :: CircularList() : DoublyLinkedList<Type>()
 }
 
 template <class Type>
-void CIrcularList<Type> :: add(Type data)
+void CircularList<Type> :: add(Type data)
 {
     
 }
