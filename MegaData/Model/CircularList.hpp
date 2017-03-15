@@ -23,9 +23,8 @@ public:
     
     void add(Type data);
     Type remove(int index);
-    Type remove(int index);
     Type getFromIndex(int index);
-    Type setAtIndex(int index, Type, data);
+    Type setAtIndex(int index, Type data);
     //Other methods as needed :)
 };
 
@@ -47,11 +46,7 @@ CircularList<Type> :: ~CircularList()
         remove = this->getFront();
     }
 }
-template <class Type>
-void CircularList<Type> :: add(Type data)
-{
-    
-}
+
 
 template <class Type>
 BiDirectionalNode<Type> * CircularList<Type> :: findNode(int index)
@@ -79,7 +74,7 @@ BiDirectionalNode<Type> * CircularList<Type> :: findNode(int index)
 template <class Type>
 void CircularList<Type> :: add(Type data)
 {
-    BiDirectionalNode<Type> * addMe = new BiDirectionalNode<Type>(Data);
+    BiDirectionalNode<Type> * addMe = new BiDirectionalNode<Type>(data);
     
     if(this->getSize() == 0)
     {
@@ -92,7 +87,7 @@ void CircularList<Type> :: add(Type data)
     else{
         this->getEnd()->setNextPOinter(addMe);
         addMe->setPreviousPOinter(this->getEnd());
-        addme->setNextPOinter(this->getFront());
+        addMe->setNextPOinter(this->getFront());
         this->getFront()->setPreviousPointer(addMe);
         this->setEnd(addMe);
     }
@@ -125,7 +120,7 @@ Type CircularList<Type> :: remove(int index)
         }
         else if(index == this->getSize() -1)
         {
-            this->setEnd(this->getEnd())->getPreviousPointer()
+            this->setEnd(this->getEnd()->getPreviousPointer());
         }
     }
     else
