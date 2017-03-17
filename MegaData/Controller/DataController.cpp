@@ -9,7 +9,8 @@
 #include "DataController.hpp"
 #include <iostream>
 #include "../Model/IntNodeArray.hpp"
-
+#include "../Model/Array.hpp"
+#include "../Model/List.hpp"
 
 
 using namespace std;
@@ -134,3 +135,41 @@ void DataController :: testListTiming()
     cout << "The average speed for the getFromIndex method was: " << averageSlow << " microseconds." << endl;
     cout << "The average speed for the getFromIndexFast method was: " << averageFast << " microseconds." << endl;
 }
+
+void DataController :: testCircularList()
+{
+    CircularList<int> circles;
+    for(int index = 0; index < 10; index++)
+    {
+        circles.add(index);
+        cout << "the size of circles is " << circles.getSize() << ", and should be" << (index +1) << endl;
+    }
+    
+    int testRemove = circles.remove(3);
+    cout << "The"
+}
+
+void DataController :: testDoubleList()
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

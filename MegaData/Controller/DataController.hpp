@@ -26,16 +26,20 @@ using namespace std;
 class DataController
 {
 private:
-    Node<int> numberNode;
-    Node<string> wordNode;
     void testIntArray();
-    void testNodes();
+    Node<int> numberNode;
+    Node<string>wordNode;
     void testAdvancedFeatures();
+    void testIntStack();
+    void testFoodQueue();
+    void testCircularList();
+    void testDoubleList();
     void testLists();
     void testListTiming();
 public:
     DataController();
     void start();
+    void testNodes();
 };
 
 #endif /* DataStructureController_hpp */
