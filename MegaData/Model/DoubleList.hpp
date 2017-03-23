@@ -24,6 +24,8 @@ public:
     void addAtIndex(int indnex, Type value);
     Type getFromIndex(int index);
     Type getFromIndexFast(int index);
+    int indexOf(Type value);
+    int nextIndexOf(Type value, int position);
 };
 
 template <class Type>
@@ -157,8 +159,43 @@ Type DoubleList<Type> :: getFromIndex(int index)
     return valueAtIndex;
 }
 
+template <class Type>
+int DoubleList<Type> ::  indexOf(Type findme)
+{
+    int index = -1;
+    
+    BiDirectionalNode<Type> * searchPointer = this->getFront();
+    {
+        for(int spot = 0; spot < this->getSize(); spot++)
+        {
+            return spot;
+        }
+        searchPointer = searchPointer->getNextPointer();
+    }
+    
+    return index;
+}
 
-
+template <class Type>
+int DoubleList<Type> :: nextIndexOf(Type value, int position)
+{
+    assert(position >= 0 && position < this->getSize();
+    
+    BiDirectionalNode<Type> * current = this->getFront();
+    
+    for(int index = 0; index < this->getSize(); index++)
+    {
+               
+        if(index >= position)
+        {
+            if(currrent->getNodeData() == value)
+            {
+                return index;
+            }
+        }
+    }
+    current = current->getNextPointer();
+}
 
 
 

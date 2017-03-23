@@ -259,4 +259,5 @@ Node<Type> * List<Type> :: getEnd() const
     return this->end;
 }
 
+
 #endif /* List_hpp */

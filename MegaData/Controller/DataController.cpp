@@ -146,7 +146,7 @@ void DataController :: testCircularList()
     }
     
     int testRemove = circles.remove(3);
-    cout << "The"
+    cout << "The" << endl;
 }
 
 void DataController :: testDoubleList()
@@ -171,5 +171,4 @@ void DataController :: testDoubleList()
 
 
 
-
-
+}
