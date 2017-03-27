@@ -43,7 +43,7 @@ bool FoodItem :: operator < (FoodItem & otherFood)
 {
     if(this->isDelicious() && otherFood.isDelicious())
     {
-        if(this->getCalries() > otherFood.getCalories())
+        if(this->getCalories() > otherFood.getCalories())
         {
             
             return true;

@@ -13,6 +13,7 @@
 		9FC12C191E71E334002474C8 /* DataController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12C161E71E334002474C8 /* DataController.cpp */; };
 		9FC12C1A1E71E334002474C8 /* DataRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12C181E71E334002474C8 /* DataRunner.cpp */; };
 		9FDCF91C1E899A68000F0A47 /* FoodItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCF91B1E899A68000F0A47 /* FoodItem.cpp */; };
+		9FDCF91F1E89A1D6000F0A47 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCF91D1E89A1D6000F0A47 /* FileController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		9FC12C1E1E71E35C002474C8 /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = Model/Stack.hpp; sourceTree = "<group>"; };
 		9FDCF91A1E899928000F0A47 /* FoodItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = FoodItem.hpp; path = Model/FoodItem.hpp; sourceTree = "<group>"; };
 		9FDCF91B1E899A68000F0A47 /* FoodItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FoodItem.cpp; path = Model/FoodItem.cpp; sourceTree = "<group>"; };
+		9FDCF91D1E89A1D6000F0A47 /* FileController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FileController.cpp; path = Controller/FileController.cpp; sourceTree = "<group>"; };
+		9FDCF91E1E89A1D6000F0A47 /* FileController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FileController.hpp; path = Controller/FileController.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				9FC12C161E71E334002474C8 /* DataController.cpp */,
 				9FC12C171E71E334002474C8 /* DataController.hpp */,
 				9FC12C181E71E334002474C8 /* DataRunner.cpp */,
+				9FDCF91D1E89A1D6000F0A47 /* FileController.cpp */,
+				9FDCF91E1E89A1D6000F0A47 /* FileController.hpp */,
 				9F23827E1E490F0C00AB86FE /* Model */,
 			);
 			path = MegaData;
@@ -175,6 +180,7 @@
 				9FC12C1A1E71E334002474C8 /* DataRunner.cpp in Sources */,
 				9FC12C151E71E2B0002474C8 /* Timer.cpp in Sources */,
 				9FDCF91C1E899A68000F0A47 /* FoodItem.cpp in Sources */,
+				9FDCF91F1E89A1D6000F0A47 /* FileController.cpp in Sources */,
 				9FC12C191E71E334002474C8 /* DataController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
