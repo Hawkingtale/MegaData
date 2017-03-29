@@ -12,12 +12,45 @@
 using namespace std;
 
 
-class FoodItem
+FoodItem :: FoodItem()
 {
-    this->
+    this->calories = 999;
+    this->foodName = "yes";
+    this->cost = 999.99;
+    this->delicious = false;
     
     
+};
+
+FoodItem :: FoodItem(string name)
+{
+    this->foodName = name;
+    this->calories = 23;
+    this->cost = 99.9;
+    this->delicious = true;
 }
+
+int FoodItem :: getCalories()
+{
+    return calories;
+}
+
+double FoodItem :: getCost()
+{
+    return cost;
+}
+
+string FoodItem :: getFoodName()
+{
+    return foodName;
+}
+
+bool FoodItem :: isDelicious()
+{
+    return delicious;
+}
+
+
 
 void FoodItem :: setCalories(int calories)
 {

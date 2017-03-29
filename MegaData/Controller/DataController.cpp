@@ -145,7 +145,7 @@ void DataController :: testCircularList()
         cout << "the size of circles is " << circles.getSize() << ", and should be" << (index +1) << endl;
     }
     
-    int testRemove = circles.remove(3);
+
     cout << "The" << endl;
 }
 
@@ -171,4 +171,4 @@ void DataController :: testDoubleList()
 
 
 
-}
+

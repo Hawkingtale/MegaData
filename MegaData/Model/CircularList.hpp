@@ -41,7 +41,7 @@ CircularList<Type> :: ~CircularList()
     BiDirectionalNode<Type> * remove = this->getFront();
     while(this->getFront() != nullptr)
     {
-        this->setFront(this->getFont()->getNextPointer());
+        this->setFront(this->getFront()->getNextPointer());
         delete remove;
         remove = this->getFront();
     }
@@ -52,7 +52,7 @@ template <class Type>
 BiDirectionalNode<Type> * CircularList<Type> :: findNode(int index)
 {
     BiDirectionalNode<Type> * nodeToFind;
-    if(index < this->getize() /2)
+    if(index < this->getSize() /2)
     {
         nodeToFind = this->getFront();
         for(int spot = 0; spot < index; spot++)
@@ -85,9 +85,9 @@ void CircularList<Type> :: add(Type data)
         
     }
     else{
-        this->getEnd()->setNextPOinter(addMe);
-        addMe->setPreviousPOinter(this->getEnd());
-        addMe->setNextPOinter(this->getFront());
+        this->getEnd()->setNextPointer(addMe);
+        addMe->setPreviousPointer(this->getEnd());
+        addMe->setNextPointer(this->getFront());
         this->getFront()->setPreviousPointer(addMe);
         this->setEnd(addMe);
     }
@@ -130,7 +130,7 @@ Type CircularList<Type> :: remove(int index)
     }
     
     delete removed;
-    this->setSize(this->getSIze() -1);
+    this->setSize(this->getSize() -1);
     
     return removedValue;
 }

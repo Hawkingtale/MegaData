@@ -179,7 +179,7 @@ int DoubleList<Type> ::  indexOf(Type findme)
 template <class Type>
 int DoubleList<Type> :: nextIndexOf(Type value, int position)
 {
-    assert(position >= 0 && position < this->getSize();
+    assert(position >= 0 && position < this->getSize());
     
     BiDirectionalNode<Type> * current = this->getFront();
     
@@ -188,7 +188,7 @@ int DoubleList<Type> :: nextIndexOf(Type value, int position)
                
         if(index >= position)
         {
-            if(currrent->getNodeData() == value)
+            if(current->getNodeData() == value)
             {
                 return index;
             }

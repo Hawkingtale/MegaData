@@ -9,6 +9,7 @@
 #ifndef FoodItem_h
 #define FoodItem_h
 
+#include <string>
 
 using namespace std;
 

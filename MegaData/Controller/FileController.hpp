@@ -9,13 +9,13 @@
 #ifndef FileController_hpp
 #define FileController_hpp
 
-#include "../Mode/DoubleList.hpp"
-#include "../Mode/FoodItem.hpp"
-#include "../Mode/Meme.hpp"
-#include <string>
-#include <fstream>
-#include <iostream>
-#include <sstream>
+#include "../Model/DoubleList.hpp"
+#include "../Model/FoodItem.hpp"
+
+#include <string> //String type
+#include <fstream> //File operations
+#include <iostream> //console access
+#include <sstream> // String as stream
 
 using namespace std;
 
@@ -23,9 +23,9 @@ class FileController
 {
 private:
     DoubleList<FoodItem> foodItemList;
-    DoubleList<Meme> memeList;
 public:
-    DoubleList<Meme> readDataFromFile(string filename);
+    DoubleList<FoodItem> readFoodItemDataFromFileAsList(string filename);
+    void writeFoodItemDataStatistics(DoubleList<FoodItem> source, string filename);
 };
 
 #endif /* FileController_hpp */
