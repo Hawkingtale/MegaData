@@ -20,11 +20,15 @@ private:
     BinarySearchTreeNode<Type> * root;
     
     int calculateSize(BinarySearchTreeNode<Type> * root);
-    void inOrderTraversal(BinarySearchTreeNode<Type> * inStart);
+    int calculateHeight(BinarySearchTreeNode<Type> * root);
+    bool isBalanced(BinarySearchTreeNode<Type> * root);
+    bool isComplete(BinarySearchTreeNode<Type> * root);
+    
+    void inOrderTraversal(BinarySearchTreeNode<Type> * instart);
     void preOrderTraversal(BinarySearchTreeNode<Type> * preStart);
     void postOderTraversal(BinarySearchTreeNode<Type> * postStart);
     
-    void removeNode(BinarySearchTreeNode<Type> * & removeMe);
+    void removeNode(BinarySearchTreeNode<Type> * removeMe);
     
 public:
     BinarySearchTree():
@@ -36,10 +40,13 @@ public:
     void inOrderTraversal();
     void preOrderTraversal();
     void postOrderTraversal();
-    
-    void printToFile();
-    
+
     void demoTraversalSteps(BinarySearchTreeNode<Type> * node);
+    
+    int getSize();
+    int getHight();
+    bool isComplete();
+    bool isBalanced();
     
     bool contains(Type value);
     void insert(Type itemToInsert);
@@ -51,6 +58,72 @@ BinarySearchTree<Type> :: BinarySearchTree() : Tree<Type>()
 {
     this->root = nullptr;
 }
+
+template <class Type>
+BinarySearchTreeNode<Type> BinarySearchTreeNode() : Tree<Type>()
+{
+    this->root nullptr();
+}
+
+template <class Type>
+BinarySearchTreeNode<Type> :: ~BinarySearchTree()
+{
+    
+}
+
+template <class Type>
+BinarySearchTreeNode<Type> * BinarySearchTreeNode<Type> :: getRoot()
+{
+    this->root = root;
+}
+
+template <class Type>
+void BinarySearchTreeNode<Type> :: inOrderTraversal()
+{
+    inOrderTraversial(root)
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: postOrderTraversal()
+{
+    postOrderTraversal(root);
+}
+
+template <class Type>
+void Binary Searchtree<Type> :: printToFile()
+{
+    
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: calculateSize(BinarySearchTreeNode<Type> * start)
+{
+    
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal(BinarySearchTreeNode<Type> * instart)
+{
+    if(instart != nullptr)
+    {
+        inOrderTraversal(inStart->getLeftChild());
+        cout << "Node Contains: " << inStart->getNodeData() << endl;
+        inOrderTraversal(instart->getRightChild());
+    }
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal(BinarySearchTreeNode<Type> * preStart)
+{
+    
+    if(preStart != nullptr)
+    {
+        cout << "Node Contains: " << prestart->getNodeData() << endl;
+        postOrderTraversal(preStart->getleftCild());
+        preOrderTraversal(preStart->getRightChild()):
+    }
+}
+
 
 template <class Type>
 BinarySearchTreeNode<Type> :: contains(Type itemToFind)

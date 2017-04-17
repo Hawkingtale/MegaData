@@ -8,7 +8,7 @@
 
 #ifndef DoubleList_h_h
 #define DoubleList_h_h
-#
+#include <assert.h>
 #include "DoublyLinkedList.hpp"
 
 template <class Type>
