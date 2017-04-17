@@ -16,7 +16,7 @@ using namespace std;
 template <class Type>
 class BinarySearchTree : public Tree<Type>
 {
-private:
+protected:
     BinarySearchTreeNode<Type> * root;
     
     int calculateSize(BinarySearchTreeNode<Type> * root);
