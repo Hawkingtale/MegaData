@@ -10,7 +10,10 @@
 #define Tree_h
 
 #include <assert.h>
-template <class Type> class Tree { public:
+
+template <class Type>
+class Tree
+{ public:
     //Traversals
     virtual void inOrderTraversal() = 0;
     virtual void postOrderTraversal() = 0;
@@ -23,5 +26,6 @@ template <class Type> class Tree { public:
     //Data Methods
     virtual bool contains(Type value) = 0;
     virtual void insert(Type itemToInsert) = 0;
-    virtual void remove(Type value) = 0; }; #endif /* Tree_h */
+    virtual void remove(Type value) = 0;
+};
 #endif /* Tree_h */

@@ -18,6 +18,8 @@
 #include "../Model/Queue.hpp"
 #include "../Model/Timer.hpp"
 #include "../Model/DoubleList.hpp"
+#include "../Model/BinarySearchTree.hpp"
+#include <string>
 
 
 using namespace std;
@@ -36,6 +38,7 @@ private:
     void testDoubleList();
     void testLists();
     void testListTiming();
+    void testBinarySearchTreeOperations();
 public:
     DataController();
     void start();

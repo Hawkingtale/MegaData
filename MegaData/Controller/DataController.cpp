@@ -157,6 +157,45 @@ void DataController :: testDoubleList()
 
 
 
+void DataController :: testBinarySearchTreeOperations()
+
+{
+    
+    BinarySearchTree<int> number;
+    
+    number.insert(9843);
+    
+    number.insert(10);
+    
+    number.insert(43);
+    
+    number.insert(-123);
+    
+    number.insert(23465);
+    
+    number.insert(10); // won't go in
+    
+    number.insert(43243);
+    
+    number.insert(-45677654);
+    
+    number.insert(92165);
+    
+    
+    
+    cout << "Size should be 8 and is: " << number.getSize() << endl;
+    
+    cout << "In order traversal should be: \n\t-45677654 \n\t-123 \n\t10 \n\t43 \n\t9843 \n\t23465 \n\t43243 \n\t92165" << endl;
+    
+    number.inOrderTraversal();
+    
+    
+    
+    cout << "Height should be 4 and is: " << number.getHeight() << endl;
+    
+    cout << "Balanced should be false || 0 and is: " << number.isBalanced() << endl;
+    
+}
 
 
 
