@@ -19,6 +19,7 @@
 #include "../Model/Timer.hpp"
 #include "../Model/DoubleList.hpp"
 #include "../Model/BinarySearchTree.hpp"
+#include "../Model/AVLTree.hpp"
 #include <string>
 
 
@@ -39,6 +40,8 @@ private:
     void testLists();
     void testListTiming();
     void testBinarySearchTreeOperations();
+    void testAVLTreeOperations();
+    void testBinarySearchData();
 public:
     DataController();
     void start();

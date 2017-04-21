@@ -7,9 +7,10 @@
 //
 
 #include "CrimeData.hpp"
-
+#include <iostream>
 CrimeData :: CrimeData()
 {
+    
 }
 
 string CrimeData :: getDepartment() const
@@ -231,3 +232,10 @@ void CrimeData :: setYear(const int & year)
     this->year = year;
 }
 
+ostream & operator << (ostream &outputStream, const CrimeData & outputData)
+
+{
+    
+    return outputStream << outputData.getDepartment() << "had " << outputData.getAllViolentRates() << " in year: " << outputData.getYear();
+    
+}

@@ -197,17 +197,17 @@ void DataController :: testBinarySearchTreeOperations()
     
 }
 
-void StructureTester :: testBinarySearchData()
+void DataController :: testBinarySearchData()
 
 {
     
-    FileController fileData;
+    DataController fileData;
     
     Timer treeTimer;
     
     treeTimer.startTimer();
     
-    BinarySearchTree<CrimeData> crimeTree = fileData.readCrimeDataToBinarySearchTree("/Users/cody.henrichsen/Documents/crimes.csv");
+    BinarySearchTree<fileData> crimeTree = fileData.readCrimeDataToBinarySearchTree("/Users/cody.henrichsen/Documents/crimes.csv");
     
     treeTimer.stopTimer();
     
@@ -233,47 +233,47 @@ void StructureTester :: testBinarySearchData()
     
 }
 
-void StructureTester :: testAVLTreeOperations()
+void DataController :: testAVLTreeOperations()
 
 {
     
-    AVLTree<int> numbers;
+    AVLTree<int> isnumber;
     
-    numbers.insert(9843);
+    isnumber.insert(9843);
     
-    numbers.insert(10);
+    isnumber.insert(10);
     
-    numbers.insert(43);
+    isnumber.insert(43);
     
-    numbers.insert(-123);
+    isnumber.insert(-123);
     
-    numbers.insert(23465);
+    isnumber.insert(23465);
     
-    numbers.insert(10); // won't go in
+    isnumber.insert(10); // won't go in
     
-    numbers.insert(43243);
+    isnumber.insert(43243);
     
-    numbers.insert(-45677654);
+    isnumber.insert(-45677654);
     
-    numbers.insert(92165);
+    isnumber.insert(92165);
     
     
     
-    cout << "Size should be 8 and is: " << numbers.getSize() << endl;
+    cout << "Size should be 8 and is: " << number.getSize() << endl;
     
     cout << "In order traversal should be: \n\t-45677654 \n\t-123 \n\t10 \n\t43 \n\t9843 \n\t23465 \n\t43243 \n\t92165" << endl;
     
-    numbers.inOrderTraversal();
+    isnumber.inOrderTraversal();
     
     
     
-    cout << "Height should be 4 and is: " << numbers.getHeight() << endl;
+    cout << "Height should be 4 and is: " << number.getHeight() << endl;
     
-    cout << "Balanced should be true || 1 and is: " << numbers.isBalanced() << endl;
+    cout << "Balanced should be true || 1 and is: " << number.isBalanced() << endl;
     
 }
 
-void StructureTester :: testAVLData()
+void DataController :: testAVLData()
 
 {
     

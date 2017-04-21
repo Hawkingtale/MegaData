@@ -54,8 +54,7 @@
 		9FC12C1B1E71E35C002474C8 /* CircularList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CircularList.hpp; path = Model/CircularList.hpp; sourceTree = "<group>"; };
 		9FC12C1C1E71E35C002474C8 /* DoubleList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DoubleList.hpp; path = Model/DoubleList.hpp; sourceTree = "<group>"; };
 		9FC12C1E1E71E35C002474C8 /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = Model/Stack.hpp; sourceTree = "<group>"; };
-		9FC40F071EA7E2230050FAAF /* BianarySearchTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BianarySearchTreeNode.hpp; path = Model/BianarySearchTreeNode.hpp; sourceTree = "<group>"; };
-		9FCBA2781EA549BA00F7EFE0 /* TreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TreeTester.hpp; path = Model/TreeTester.hpp; sourceTree = "<group>"; };
+		9FC40F071EA7E2230050FAAF /* BinarySearchTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BinarySearchTreeNode.hpp; path = Model/BinarySearchTreeNode.hpp; sourceTree = "<group>"; };
 		9FDCF91A1E899928000F0A47 /* FoodItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = FoodItem.hpp; path = Model/FoodItem.hpp; sourceTree = "<group>"; };
 		9FDCF91B1E899A68000F0A47 /* FoodItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FoodItem.cpp; path = Model/FoodItem.cpp; sourceTree = "<group>"; };
 		9FDCF91D1E89A1D6000F0A47 /* FileController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FileController.cpp; path = Controller/FileController.cpp; sourceTree = "<group>"; };
@@ -112,12 +111,11 @@
 				9FC12C1E1E71E35C002474C8 /* Stack.hpp */,
 				9F0EE63C1E6767F0008CECF9 /* DoublyLinkedList.hpp */,
 				9F9A656F1E9FF08B00CFFD12 /* BinarySearchTree.hpp */,
-				9FC40F071EA7E2230050FAAF /* BianarySearchTreeNode.hpp */,
+				9FC40F071EA7E2230050FAAF /* BinarySearchTreeNode.hpp */,
 				9F0EE63A1E674E36008CECF9 /* Node.hpp */,
 				9F9A65701EA004FA00CFFD12 /* Tree.hpp */,
 				9F78DA7A1EAA7B0A002B09FB /* AVLTree.hpp */,
 				9F0EE6391E674E27008CECF9 /* List.hpp */,
-				9FCBA2781EA549BA00F7EFE0 /* TreeTester.hpp */,
 				9F0EE6381E674E21008CECF9 /* IntNodeArray.hpp */,
 				9F0EE6361E674E1A008CECF9 /* IntNodeArray.cpp */,
 				9F0EE6351E674E15008CECF9 /* IntNode.hpp */,

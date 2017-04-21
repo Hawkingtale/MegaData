@@ -27,7 +27,7 @@
 #include <string>
 
 
-void StructureTester :: testBinarySearchTreeOperations()
+void DataController :: testBinarySearchTreeOperations()
 
 {
     
