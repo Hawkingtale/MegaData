@@ -308,7 +308,7 @@ void StructureTester :: testAVLData()
 }
 
 
-BinarySearchTree<CrimeData> FileController :: readCrimeDataToBinarySearchTree(string filename)
+BinarySearchTree<CrimeData> DataController :: readCrimeDataToBinarySearchTree(string filename)
 
 {
     

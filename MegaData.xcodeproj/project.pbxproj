@@ -41,6 +41,7 @@
 		9F0EE63C1E6767F0008CECF9 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DoublyLinkedList.hpp; path = Model/DoublyLinkedList.hpp; sourceTree = "<group>"; };
 		9F23826F1E49045900AB86FE /* MegaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaData; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F76CE631E6A049000B5A084 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Queue.hpp; path = Model/Queue.hpp; sourceTree = "<group>"; };
+		9F78DA7A1EAA7B0A002B09FB /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = AVLTree.hpp; path = Model/AVLTree.hpp; sourceTree = "<group>"; };
 		9F9A656F1E9FF08B00CFFD12 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BinarySearchTree.hpp; path = Model/BinarySearchTree.hpp; sourceTree = "<group>"; };
 		9F9A65701EA004FA00CFFD12 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Tree.hpp; path = Model/Tree.hpp; sourceTree = "<group>"; };
 		9FBA780F1E8C2C110055B449 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = Model/CrimeData.cpp; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 				9FC40F071EA7E2230050FAAF /* BianarySearchTreeNode.hpp */,
 				9F0EE63A1E674E36008CECF9 /* Node.hpp */,
 				9F9A65701EA004FA00CFFD12 /* Tree.hpp */,
+				9F78DA7A1EAA7B0A002B09FB /* AVLTree.hpp */,
 				9F0EE6391E674E27008CECF9 /* List.hpp */,
 				9FCBA2781EA549BA00F7EFE0 /* TreeTester.hpp */,
 				9F0EE6381E674E21008CECF9 /* IntNodeArray.hpp */,
