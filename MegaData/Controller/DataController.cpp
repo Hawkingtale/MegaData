@@ -259,7 +259,7 @@ void DataController :: testAVLTreeOperations()
     
     
     
-    cout << "Size should be 8 and is: " << number.getSize() << endl;
+    cout << "Size should be 8 and is: " << isnumber.getSize() << endl;
     
     cout << "In order traversal should be: \n\t-45677654 \n\t-123 \n\t10 \n\t43 \n\t9843 \n\t23465 \n\t43243 \n\t92165" << endl;
     
@@ -267,9 +267,9 @@ void DataController :: testAVLTreeOperations()
     
     
     
-    cout << "Height should be 4 and is: " << number.getHeight() << endl;
+    cout << "Height should be 4 and is: " << isnumber.getHeight() << endl;
     
-    cout << "Balanced should be true || 1 and is: " << number.isBalanced() << endl;
+    cout << "Balanced should be true || 1 and is: " << isnumber.isBalanced() << endl;
     
 }
 
@@ -277,7 +277,7 @@ void DataController :: testAVLData()
 
 {
     
-    FileController fileData;
+    DataController fileData;
     
     Timer treeTimer;
     

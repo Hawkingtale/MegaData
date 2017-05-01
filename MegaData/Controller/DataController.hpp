@@ -20,6 +20,8 @@
 #include "../Model/DoubleList.hpp"
 #include "../Model/BinarySearchTree.hpp"
 #include "../Model/AVLTree.hpp"
+#include "../Model/CrimeData.hpp"
+#include "../Model/FoodItem.hpp"
 #include <string>
 
 
@@ -42,6 +44,7 @@ private:
     void testBinarySearchTreeOperations();
     void testAVLTreeOperations();
     void testBinarySearchData();
+    void testAVLData();
 public:
     DataController();
     void start();

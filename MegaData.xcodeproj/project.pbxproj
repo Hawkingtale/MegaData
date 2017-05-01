@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F0EE6341E674E10008CECF9 /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EE6331E674E10008CECF9 /* IntNode.cpp */; };
 		9F0EE6371E674E1A008CECF9 /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EE6361E674E1A008CECF9 /* IntNodeArray.cpp */; };
+		9F1938031EB7B3C80054A858 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F1938021EB7B3C80054A858 /* HashTable.cpp */; };
 		9FBA78111E8C2C110055B449 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA780F1E8C2C110055B449 /* CrimeData.cpp */; };
 		9FC12C151E71E2B0002474C8 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12C131E71E2B0002474C8 /* Timer.cpp */; };
 		9FC12C191E71E334002474C8 /* DataController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12C161E71E334002474C8 /* DataController.cpp */; };
@@ -39,6 +40,8 @@
 		9F0EE6391E674E27008CECF9 /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = List.hpp; path = Model/List.hpp; sourceTree = "<group>"; };
 		9F0EE63A1E674E36008CECF9 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Node.hpp; path = Model/Node.hpp; sourceTree = "<group>"; };
 		9F0EE63C1E6767F0008CECF9 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DoublyLinkedList.hpp; path = Model/DoublyLinkedList.hpp; sourceTree = "<group>"; };
+		9F1938021EB7B3C80054A858 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HashTable.cpp; path = Model/HashTable.cpp; sourceTree = "<group>"; };
+		9F1938041EB7B4DA0054A858 /* HashTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = HashTable.hpp; path = Model/HashTable.hpp; sourceTree = "<group>"; };
 		9F23826F1E49045900AB86FE /* MegaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaData; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F76CE631E6A049000B5A084 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Queue.hpp; path = Model/Queue.hpp; sourceTree = "<group>"; };
 		9F78DA7A1EAA7B0A002B09FB /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = AVLTree.hpp; path = Model/AVLTree.hpp; sourceTree = "<group>"; };
@@ -118,7 +121,9 @@
 				9F0EE6391E674E27008CECF9 /* List.hpp */,
 				9F0EE6381E674E21008CECF9 /* IntNodeArray.hpp */,
 				9F0EE6361E674E1A008CECF9 /* IntNodeArray.cpp */,
+				9F1938021EB7B3C80054A858 /* HashTable.cpp */,
 				9F0EE6351E674E15008CECF9 /* IntNode.hpp */,
+				9F1938041EB7B4DA0054A858 /* HashTable.hpp */,
 				9F0EE6331E674E10008CECF9 /* IntNode.cpp */,
 				9F0EE6321E674E07008CECF9 /* BiDirectionalNode.hpp */,
 				9F0EE6311E674DE6008CECF9 /* Array.hpp */,
@@ -190,6 +195,7 @@
 			files = (
 				9FBA78111E8C2C110055B449 /* CrimeData.cpp in Sources */,
 				9F0EE6371E674E1A008CECF9 /* IntNodeArray.cpp in Sources */,
+				9F1938031EB7B3C80054A858 /* HashTable.cpp in Sources */,
 				9F0EE6341E674E10008CECF9 /* IntNode.cpp in Sources */,
 				9FC12C1A1E71E334002474C8 /* DataRunner.cpp in Sources */,
 				9FC12C151E71E2B0002474C8 /* Timer.cpp in Sources */,
