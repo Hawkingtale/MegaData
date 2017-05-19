@@ -23,7 +23,7 @@
 
 using namespace std;
 
-class DataController
+class FileController
 {
 private:
     DoubleList<FoodItem> foodItemList;

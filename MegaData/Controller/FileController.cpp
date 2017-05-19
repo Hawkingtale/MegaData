@@ -1,13 +1,13 @@
 //
-//  DataController.cpp
+//  FileControlle.cpp
 //  MegaData
 //
 //  Created by Hachtel, Matthew on 3/27/17.
 //  Copyright © 2017 Hachtel, Matthew. All rights reserved.
 //
 
-#include "DataController.hpp"
-DoubleList<FoodItem> DataController :: readFoodItemDataFromFileAsList(string filename)
+#include "FileController.hpp"
+DoubleList<FoodItem> FileController :: readFoodItemDataFromFileAsList(string filename)
 {
     DoubleList<FoodItem> dataSource;
     string currentCSVLine;
@@ -61,7 +61,7 @@ DoubleList<FoodItem> DataController :: readFoodItemDataFromFileAsList(string fil
 
 
 
-void DataController:: writeFoodItemDataStatistics(DoubleList<FoodItem> dataSource, string filename)
+void FileController:: writeFoodItemDataStatistics(DoubleList<FoodItem> dataSource, string filename)
 {
     ofstream saveFile(filename);
     

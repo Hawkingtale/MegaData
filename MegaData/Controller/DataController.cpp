@@ -154,9 +154,6 @@ void DataController :: testDoubleList()
     
 }
 
-
-
-
 void DataController :: testBinarySearchTreeOperations()
 
 {
@@ -495,7 +492,18 @@ ostream & operator << (ostream &outputStream, const CrimeData & outputData)
 }
 
 
+void DataController :: testGraph()
 
+{
+    Graph<String> words;=
+    
+    words.addVertex("tedious");
+    words.addVertex("pain");
+    words.addVertex("Suffer");
+    words.addVertex("Boredom");
+    words.addVertex("MMOGrind");
+    words.addVertex(")
+}
 
 
 
